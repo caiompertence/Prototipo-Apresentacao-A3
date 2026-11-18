@@ -1,0 +1,25 @@
+PASTA DE IMAGENS
+
+Coloque aqui as fotos e ilustrações do grupo de fisioterapia.
+O app já tem os espaços reservados (contorno tracejado). Para ocupar um espaço:
+1) copie o arquivo para esta pasta (.jpg, .png ou .webp);
+2) abra js/app.js, procure a linha  const IM={};  e liste o arquivo, por exemplo:
+   const IM={cri:'img/cri.webp', cal:'img/cal.webp', gelo:'img/gelo.webp'};
+
+FOTO DE FUNDO DA TELA INICIAL (escolha paciente ou fisioterapeuta)
+- Nome do arquivo: img/fundo-inicio.jpg  (não precisa mexer no código)
+- Foto em pé (vertical), cerca de 1080 x 1920 px, JPG com até 300 KB.
+- Deixe a parte de baixo "calma": o título e os botões ficam ali, sobre um degradê azul-marinho.
+- Sugestão de assunto: fisioterapeuta atendendo paciente, aplicação de bolsa térmica ou de gelo.
+- Use só fotos com licença que permita uso no app (por exemplo Unsplash, Pexels ou Pixabay) ou fotos do próprio grupo, com autorização das pessoas que aparecem.
+
+ESPAÇOS (nome -> onde aparece)
+cri, cal, cmp, imf, par, uss, oc, rf : os 8 recursos (miniatura redonda nos resultados, ficha e busca; quadrada, ~200x200 px)
+gelo   : banner da orientação de frio (largo, ~600x240 px)
+cal    : banner da orientação de calor e miniatura de Calor superficial
+th     : topo do Início do paciente, login do paciente e Informações
+doc    : topo do Início do fisioterapeuta, login do fisioterapeuta e biblioteca de artigos vazia
+alerta : tela de alerta de segurança
+toa    : toalha em "O que você vai precisar"
+reg    : registros vazios
+graf   : evolução vazia
